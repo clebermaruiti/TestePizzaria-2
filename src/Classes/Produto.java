@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package Classes;
-
+//testando primeiro commit no desktop
 import java.io.Serializable;
 import javax.persistence.Basic;
 import javax.persistence.Column;
