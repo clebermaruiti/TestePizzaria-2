@@ -63,7 +63,7 @@ public class ProdutoDAO {
     public void select(Produto p) throws SQLException {
 
         banco.st = banco.conn.createStatement();
-        banco.rs = banco.st.executeQuery("select from produto where produto ='" + p.getProduto() + "'");
+        banco.rs = banco.st.executeQuery("select produto, descricao from produto where produto ='" + p.getProduto() + "'");
 
         if (banco.rs.next()) {
 
